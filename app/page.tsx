@@ -8,7 +8,14 @@ const HomePage = () => {
   ));
 
   return (
+    <>
+    <h1>About US</h1>
+    <p></p>
+    <h1>Our Team</h1>
+    <p></p>
+    <h1>Blog</h1>
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">{postPreviews}</div>
+    </>
   );
 };
 
