@@ -10,7 +10,7 @@ const HomePage = () => {
   return (
     <>
     <h1>About US</h1>
-    <p></p>
+    <p>Nic Venner -  CEO  </p>
     <h1>Our Team</h1>
     <p></p>
     <h1>Blog</h1>
