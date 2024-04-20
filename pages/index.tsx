@@ -70,15 +70,10 @@ const Home: NextPage = () => {
       />
       <Box>
         <HeroSection />
-
         <HighlightsSection />
-
         <FeaturesSection />
-
         <TestimonialsSection />
-
         <PricingSection />
-
         <FaqSection />
       </Box>
     </Box>
@@ -97,30 +92,26 @@ const HeroSection: React.FC = () => {
             px="0"
             title={
               <FallInPlace>
-                Build beautiful
-                <Br /> software faster
+                Understand Government
+                <Br /> Better
               </FallInPlace>
             }
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
-                Saas UI is a <Em>React component library</Em>
-                <Br /> that doesn&apos;t get in your way and helps you <Br />{" "}
-                build intuitive SaaS products with speed.
+                Kessler is a tool that
               </FallInPlace>
             }
           >
             <FallInPlace delay={0.8}>
-              <HStack pt="4" pb="12" spacing="8">
-                <NextjsLogo height="28px" /> <ChakraLogo height="20px" />
-              </HStack>
+              <HStack pt="4" pb="12" spacing="4"></HStack>
 
               <ButtonGroup spacing={4} alignItems="center">
-                <ButtonLink colorScheme="primary" size="lg" href="/signup">
-                  Sign Up
+                <ButtonLink colorScheme="primary" size="lg" href="/contact">
+                  Contact Us
                 </ButtonLink>
                 <ButtonLink
                   size="lg"
-                  href="https://demo.saas-ui.dev"
+                  href="https://demo.kessler.dev"
                   variant="outline"
                   rightIcon={
                     <Icon
@@ -425,7 +416,7 @@ const TestimonialsSection = () => {
 
         return columns;
       },
-      [[], [], []]
+      [[], [], []],
     );
   }, []);
 
@@ -468,10 +459,10 @@ export async function getStaticProps() {
   return {
     props: {
       announcement: {
-        title: "Support us by becoming a stargazer! 🚀 ",
+        title: "Check out our code on github! ",
         description:
-          '<img src="https://img.shields.io/github/stars/saas-js/saas-ui.svg?style=social&label=Star" />',
-        href: "https://github.com/saas-js/saas-ui",
+          '<img src="https://img.shields.io/github/stars/mycorrhizainc/kessler.svg?style=social&label=Star" />',
+        href: "https://github.com/mycorrhizainc/kessler",
         action: false,
       },
     },
