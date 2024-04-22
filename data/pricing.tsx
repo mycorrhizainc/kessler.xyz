@@ -1,114 +1,97 @@
-import { HStack, Text } from '@chakra-ui/react'
+import { HStack, Text } from "@chakra-ui/react";
 
 export default {
-  title: 'Pricing for every stage',
-  description:
-    'Pay once and get life-time access to our high quality components.',
+  title: "Pricing for every stage",
+  description: "Flexible ",
   plans: [
     {
-      id: 'oss',
-      title: 'Open Source',
-      description: 'Basic compoents, perfect to get started.',
-      price: 'Free',
+      id: "oss",
+      title: "Open Source",
+      description: "Bring your own data and compute!",
+      price: "Free",
       features: [
         {
-          title: 'MIT License',
+          title: "Amazing frontend for understanding governments.",
         },
         {
-          title: 'Authentication (Clerk/Supabase/Magic)',
+          title: "Use with your own datasets.",
         },
         {
-          title: 'Form (react-hook-form)',
+          title: "Self Hosted",
         },
         {
-          title: 'Modals manager',
-        },
-        {
-          title: 'Hotkeys',
-        },
-        {
-          title: 'Web3 components',
-        },
-        {
-          title: 'And much more...',
+          title: "MIT License",
         },
       ],
       action: {
-        href: '#',
+        href: "#",
       },
     },
     {
-      id: 'bootstrap',
-      title: 'Bootstrap',
-      description: 'Complete frontend stack for bootstrappers and small teams.',
-      price: 'Free',
+      id: "main",
+      title: "Bootstrap",
+      description: "Complete frontend stack for bootstrappers and small teams.",
+      price: "50 $ per User",
       isRecommended: true,
       features: [
         {
-          title: 'One project',
+          title: "One project",
         },
         {
-          title: 'One developer',
+          title: "One developer",
         },
         {
-          title: 'Advanced components',
+          title: "Advanced components",
         },
         {
-          title: 'Multiple themes',
+          title: "Multiple themes",
         },
         {
-          title: 'Next.js and Electron boilerplates',
+          title: "Next.js and Electron boilerplates",
         },
         {
-          title: 'Private discord community',
+          title: "Private discord community",
         },
         {
-          title: '1 year of updates',
+          title: "Every feature in the OSS tier.",
         },
         null,
         {
-          title: 'Private beta access',
-          iconColor: 'green.500',
+          title: "Private beta access",
+          iconColor: "green.500",
         },
       ],
       action: {
-        href: 'https://appulse.gumroad.com/l/saas-ui-pro-pre-order?variant=Single%20license',
+        href: "/contact",
       },
     },
     {
-      id: 'startup',
-      title: 'Startup',
-      description: 'Unlimited license for growing teams.',
-      price: (
-        <HStack>
-          <Text textDecoration="line-through" fontSize="sm" color="gray.400">
-            €999,-
-          </Text>
-          <Text>€499,-</Text>
-        </HStack>
-      ),
+      id: "enterprise",
+      title: "Startup",
+      description: "Unlimited license for growing teams.",
+      price: "Contact Us",
       features: [
         {
-          title: 'Unlimited projects',
+          title: "Unlimited projects",
         },
         {
-          title: 'Unlimited developers',
+          title: "Unlimited developers",
         },
         {
-          title: '1 year of updates',
+          title: "1 year of updates",
         },
         {
-          title: 'Everything from Bootstrap',
+          title: "Everything from Bootstrap",
         },
         null,
         {
-          title: 'Private beta access',
-          iconColor: 'green.500',
+          title: "Private beta access",
+          iconColor: "green.500",
         },
       ],
       action: {
-        href: 'https://appulse.gumroad.com/l/saas-ui-pro-pre-order?variant=Unlimited%20license',
+        href: "/contact",
       },
     },
   ],
-}
+};
