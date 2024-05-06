@@ -1,6 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  output: 'export',
+  images: {
+    unoptimized: true,
+  },
+  distDir: 'build',
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/,
